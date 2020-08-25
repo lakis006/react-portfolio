@@ -5,6 +5,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import './App.css';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
+import ContactPage from './pages/ContactPage';
+import AboutPage from './pages/AboutPage';
 
 
 class App extends React.Component {
@@ -25,7 +27,7 @@ class App extends React.Component {
         subTitle: 'Projects that make users happy',
         text: "Checkout The Projects!"
       },
-      abour: {
+      about: {
         title: 'About Me'
       },
       contact: {
@@ -56,10 +58,10 @@ class App extends React.Component {
 
 
 
-          {/* Getting the routes set up to render on main pages */}
+          {/* Getting the routes set up to render or display a different component at said path on main pages */}
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/>} />
-          <Route path="/" exact render={} />
-          <Route path="/" exact render={} />
+          <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />} />
+          <Route path="/contact" exact render={() => <ContactPage title={this.state.contadt.title} />} />
 
           <Footer />
 
