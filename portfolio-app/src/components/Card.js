@@ -3,7 +3,7 @@ import CardInfo from '../components/CardInfo';
 
  function Card(props) {
     return (
-        <div className="d-inline-block j-card">
+        <div className="d-inline-block j-card" onClick={(e)=> props.click(props.item)}>
             <img className="" src={props.item.imgSrc} alt={props.item.imgSrc} />
            
             {/* the line below (10) we're using conditionally rendered component which means don't actually show it unless card is selected. 
