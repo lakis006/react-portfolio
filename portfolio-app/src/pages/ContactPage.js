@@ -16,6 +16,8 @@ class ContactPage extends React.Component {
       }
    }
 
+
+
    handleChange = (event) => {
       console.log(event);
 
@@ -25,6 +27,15 @@ class ContactPage extends React.Component {
       
       this.setState({
          [name] : value
+      })
+   }
+
+   handleSubmit = (event) => {
+      event.preventDefault(); //prevents page from reloading 
+
+      this.setState({
+         disabled: true, //when they hit submit it will only send 1 message
+        
       })
    }
 
