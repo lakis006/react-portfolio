@@ -2,6 +2,7 @@ import React from 'react'
 import budget from '../assets/images/budget.png';
 import burgpic from '../assets/images/burgpic.png';
 import fitness from '../assets/images/fitness.png';
+import Card from '../components/Card';
 
 class  Carousel extends React.Component {
    
@@ -66,11 +67,38 @@ class  Carousel extends React.Component {
             ]
         }
     }
+
+
+    // this function below is going to  be a method that 
+    handleCardClick = (id, card) => {
+    let items = [...this.state.items];
+
+    items[id].selected = items[id].selected ? false : true;
+
+    items.forEach(item => {
+        if (item.id !== id) {
+            item.selected = false;
+        }
+    });
+    this.setState({
+        items
+    });
+    }
    
+
+    // actually making the items by creating a method that maps items and creates a card component for each one of these items 
+    makeItems = (items) => {
+        return items.map(item => {
+            return <Card item={item} onClick={(e => this.handleCardClick(item.id, e))} key={item.id} />
+         })
+    }
+
+
+
     render() {
 
         return (
-            <p>Carousel Works</p>
+            this.props.id.
             );
     }
 }
