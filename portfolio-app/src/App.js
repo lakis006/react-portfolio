@@ -37,12 +37,12 @@ class App extends React.Component {
       <Router>
         <Container ClassName="p-0" fluid={true}>
           
-        <Navbar ClassName="border-bottom">
+        <Navbar ClassName="border-bottom" bg="transparent" expand="lg"> 
           <Navbar.Brand>Jamal Lakis</Navbar.Brand>
 
-          <Navbar.Toggle aria-controls="navbar-toggle" />
+          <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
           <Navbar.Collapse id="nabar-toggle">
-            <Nav>
+            <Nav className="ml-auto">
 
               <Link className="nav-link" to="/">Home</Link>
               <Link className="nav-link" to="/about">About</Link>
