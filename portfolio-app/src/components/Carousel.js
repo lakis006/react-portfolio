@@ -1,8 +1,9 @@
 import React from 'react'
+import Card from '../components/Card';
 import budget from '../assets/images/budget.png';
 import burgpic from '../assets/images/burgpic.png';
 import fitness from '../assets/images/fitness.png';
-import Card from '../components/Card';
+
 
 class  Carousel extends React.Component {
    
@@ -98,7 +99,11 @@ class  Carousel extends React.Component {
     render() {
 
         return (
-            this.props.id.
+            <Container fluid={true}>
+                <Row className="justify-content-around">
+                        {this.makeItems(this.state.items)}
+                </Row>
+            </Container>
             );
     }
 }
