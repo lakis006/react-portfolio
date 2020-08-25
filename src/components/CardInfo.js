@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSpring, animated } from 'react-spring';
+import  '../';
 
  function CardInfo(props) {
 
@@ -9,10 +10,10 @@ import { useSpring, animated } from 'react-spring';
 
     return (
     
-      <animated.div className="g-card-info" style={style}>
-          <p className="g-card-title">{props.title}</p>
-          <p className="g-card-sub-title">{props.subTitle}</p>
-          <a href={props.link} target="_blank" rel="noopener noreferrer">View</a>
+      <animated.div className="j-card-info" style={style}>
+          <p className="j-card-title">{props.title}</p>
+          <p className="j-card-sub-title">{props.subTitle}</p>
+          <a href={props.link} target="_blank" rel="noopener noreferrer">View Deployed App on Heroku</a>
       </animated.div>
     )
 }

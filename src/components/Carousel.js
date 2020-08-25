@@ -39,34 +39,34 @@ class  Carousel extends React.Component {
                     link: 'https://fitness-mongo.herokuapp.com/',
                     selected: false
 
-                }
+                },
 
                 // Add 3 more assignments/projects and make the portfolio page nicer (started below/ just stwitch properties)
 
-                // {
-                //     id: 1,
-                //     title: 'Burger',
-                //     subTitle: 'This app will allow the user to create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)',
-                //     link: 'https://burger-sql.herokuapp.com/',
-                //     selected: false
+                {
+                    id: 3,
+                    title: 'Burger',
+                    subTitle: 'This app will allow the user to create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)',
+                    link: 'https://burger-sql.herokuapp.com/',
+                    selected: false
 
-                // },
-                // {
-                //     id: 1,
-                //     title: 'Burger',
-                //     subTitle: 'This app will allow the user to create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)',
-                //     link: 'https://burger-sql.herokuapp.com/',
-                //     selected: false
+                },
+                {
+                    id: 4,
+                    title: 'Burger',
+                    subTitle: 'This app will allow the user to create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)',
+                    link: 'https://burger-sql.herokuapp.com/',
+                    selected: false
 
-                // },
-                // {
-                //     id: 1,
-                //     title: 'Burger',
-                //     subTitle: 'This app will allow the user to create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)',
-                //     link: 'https://burger-sql.herokuapp.com/',
-                //     selected: false
+                },
+                {
+                    id: 5,
+                    title: 'Burger',
+                    subTitle: 'This app will allow the user to create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)',
+                    link: 'https://burger-sql.herokuapp.com/',
+                    selected: false
 
-                // }
+                }
             ]
         }
     }

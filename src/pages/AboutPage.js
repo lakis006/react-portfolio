@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero';
 import Content from '../components/Content';
 
+
  function AboutPage(props) {
     return (
        <div className>
@@ -20,7 +21,10 @@ import Content from '../components/Content';
             <p> When I'm not learning something new, chances are I am somewhere outdoors hiking, rock-climbing, jogging, and swimming</p>
 
          </Content>
+
+        
        </div>
+       
     )
 }
 
