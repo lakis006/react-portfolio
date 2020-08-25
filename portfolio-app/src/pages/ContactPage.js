@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Form from 'react-bootstrap/From';
+import Form from 'react-bootstrap/Form';
+import Hero from '../components/Hero';
 import Content from '../components/Content';
 import Button from 'react-bootstrap/Button';
 
@@ -57,7 +58,7 @@ class ContactPage extends React.Component {
                   </Form.Group>
 
                   <Form.Group>
-                     <Form.Label htmlFor="message">Email</Form.Label>
+                     <Form.Label htmlFor="message">Message</Form.Label>
                      <Form.Control id="message" name="message" as="textarea" rows="3" value={this.state.message} onChange={this.handleChange}></Form.Control>
                   </Form.Group>
 

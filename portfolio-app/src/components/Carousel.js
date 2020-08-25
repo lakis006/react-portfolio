@@ -1,5 +1,7 @@
 import React from 'react'
 import Card from '../components/Card';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 import budget from '../assets/images/budget.png';
 import burgpic from '../assets/images/burgpic.png';
 import fitness from '../assets/images/fitness.png';
