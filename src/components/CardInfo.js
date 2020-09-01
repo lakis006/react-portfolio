@@ -13,7 +13,7 @@ import  '../';
       <animated.div className="j-card-info" style={style}>
           <p className="j-card-title">{props.title}</p>
           <p className="j-card-sub-title">{props.subTitle}</p>
-          <a href={props.link} target="_blank" rel="noopener noreferrer">View Deployed App on Heroku</a>
+          <a href={props.link} target="_blank" rel="noopener noreferrer">View the Deployed App</a>
       </animated.div>
     )
 }

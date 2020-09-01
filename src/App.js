@@ -24,9 +24,9 @@ class App extends React.Component {
       ],
       // adding top level info for each page in particular 
       home: {
-        title: 'Enjoy Life',
+        title: 'Why Not Enjoy Life?',
         subTitle: 'Projects that make users happy',
-        text: "Checkout The Projects!"
+        text: "Click each project for the description and deployment link!"
       },
       about: {
         title: 'About Me'
