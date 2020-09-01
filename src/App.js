@@ -39,13 +39,13 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <Container ClassName="p-0" fluid={true}>
+        <Container className="p-0" fluid={true}>
 
-          <Navbar ClassName="border-bottom" bg="transparent" expand="lg">
+          <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Navbar.Brand>Jamal Lakis</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
-            <Navbar.Collapse id="nabar-toggle">
+            <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
 
                 <Link className="nav-link" to="/">Home</Link>

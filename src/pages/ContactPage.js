@@ -90,7 +90,7 @@ class ContactPage extends React.Component {
 
                      {/* below we're adding feedback to the user to make sure email was sent successfully */}
                      {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
-                     {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
+                 {/* {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>} */}
                </Form>
             </Content>
          </div>
