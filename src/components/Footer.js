@@ -13,16 +13,16 @@ function Footer() {
                  <Col className="p-0" md={3} sm={12}>
                     Jamal Lakis
                  </Col>
-                 <Button className="p-0 d-flex justify-content-end" md={3}>
+                 <Button href="https://github.com/lakis006" className="p-0 d-flex justify-content-end btn btn-lg btn-dark" md={3}>
                      Github
                  </Button>
-                 <Button className="p-0 d-flex justify-content-end" md={3}>
+                 <Button href="https://www.linkedin.com/in/jamal-lakis/" className="p-0 d-flex justify-content-end btn btn-lg btn-dark" md={3}>
                      Linkedin
                  </Button>
-                 <Button className="p-0 d-flex justify-content-end" md={3}>
-                     Resume
+                 <Button href="https://lakis006.github.io/Responsive-Portfolio/Assets/JLakis-Resume.pdf" className="p-0 d-flex justify-content-end btn btn-lg btn-dark" md={3}>
+                    Resume
                  </Button>
-                 <Col className="p-0 d-flex justify-content-end" md={3}>
+                 <Col className="p-0 d-flex justify-content-end btn btn-lg btn-dark" md={3}>
                      This site made by j-lakis
                  </Col>
              </Row>

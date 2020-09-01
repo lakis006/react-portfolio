@@ -7,6 +7,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+  footer {
+    background-color: rgb(38, 44, 44);
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+}
+
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

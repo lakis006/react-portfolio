@@ -2,9 +2,12 @@ import React from 'react'
 import Card from '../components/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import budget from '../assets/images/budget.png';
-import burgpic from '../assets/images/burgpic.png';
-import fitness from '../assets/images/fitness.png';
+import budget from '../assets/images/budget-pic.png';
+import burgpic from '../assets/images/clear-burger.png';
+import fitness from '../assets/images/fit-pic.png';
+import qEats from '../assets/images/q-eats.png';
+import noteTaker from '../assets/images/start.png';
+import weather from '../assets/images/weather-pic.png';
 
 
 class  Carousel extends React.Component {
@@ -45,25 +48,28 @@ class  Carousel extends React.Component {
 
                 {
                     id: 3,
-                    title: 'Burger',
-                    subTitle: 'This app will allow the user to create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)',
-                    link: 'https://burger-sql.herokuapp.com/',
+                    title: 'Quarantine Eats',
+                    subTitle: 'Anyone can use this application to inspire and instruct any user on how to make a variety of dishes and drinks at home.',
+                    imgSrc: qEats,
+                    link: 'https://jonafi.github.io/quarantine-eats/index.html',
                     selected: false
 
                 },
                 {
                     id: 4,
-                    title: 'Burger',
-                    subTitle: 'This app will allow the user to create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)',
-                    link: 'https://burger-sql.herokuapp.com/',
+                    title: 'Note Taker',
+                    subTitle: 'This application enables the user to write, save, and delete notes. It will use an express backend as well as saves and retrieves note data from a JSON file. This was accomplished by using methods such as GET, POST, and DELETE.',
+                    link: 'https://note-taker-lakis006.herokuapp.com/',
+                    imgSrc: noteTaker,
                     selected: false
 
                 },
                 {
                     id: 5,
-                    title: 'Burger',
-                    subTitle: 'This app will allow the user to create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)',
-                    link: 'https://burger-sql.herokuapp.com/',
+                    title: 'Weather Dashboard',
+                    subTitle: 'This project will include building a weather dashboard using the OpenWeather API as per users spefications. The app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.',
+                    imgSrc: weather,
+                    link: 'https://lakis006.github.io/weather-dashboard/',
                     selected: false
 
                 }

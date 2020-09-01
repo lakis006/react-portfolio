@@ -5,10 +5,13 @@ import Content from '../components/Content';
 
  function AboutPage(props) {
     return (
-       <div className>
+       <div className ="true">
           <Hero title={props.title} />
          <Content> 
            
+           
+
+
             <p>Hello, my name is Jamal. I'm a full stack web developer with experience in Javascript, Express, Node JS, MongoDB, MySQL, and React.</p>
             
             <p> My dream is to start my own full-stack web developer camp for those that are less fortunate than others when it comes to payment (Still working on ideas) </p>
