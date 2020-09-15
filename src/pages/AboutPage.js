@@ -9,7 +9,7 @@ import Content from '../components/Content';
           <Hero title={props.title} />
          <Content> 
            
-           
+          {/* Add prop for profile image */}
 
 
             <p>Hello, my name is Jamal. I'm a full stack web developer with experience in Javascript, Express, Node JS, MongoDB, MySQL, and React.</p>
