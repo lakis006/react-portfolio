@@ -14,6 +14,8 @@ import  '../';
           <p className="j-card-title">{props.title}</p>
           <p className="j-card-sub-title">{props.subTitle}</p>
           <a href={props.link} target="_blank" rel="noopener noreferrer">View the Deployed App</a>
+          <br></br>
+          <a href={props.github} target="_blank" rel="noopener noreferrer">View the Github Repository</a>
       </animated.div>
     )
 }

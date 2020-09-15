@@ -8,7 +8,7 @@ import CardInfo from '../components/CardInfo';
            
             {/* the line below (10) we're using conditionally rendered component which means don't actually show it unless card is selected. 
             Also created a CardInfo.js that will get rendered by the Card after getting clicked   */}
-            { props.item.selected &&  <CardInfo title={props.item.title} subTitle={props.item.subTitle} link={props.item.link}/>} 
+            { props.item.selected &&  <CardInfo title={props.item.title} subTitle={props.item.subTitle} link={props.item.link} github={props.item.github}/>} 
         </div>
     )
 }

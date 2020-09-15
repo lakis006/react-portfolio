@@ -22,6 +22,7 @@ class  Carousel extends React.Component {
                     subTitle: 'The PWA App that allows updated withdrawals/deposits to apply even if the USER is offline',
                     imgSrc: budget,
                     link: 'https://budget-tracker-jl.herokuapp.com/',
+                    github: "https://github.com/lakis006/budget-tracker",
                     selected: false
 
                 },
@@ -31,6 +32,7 @@ class  Carousel extends React.Component {
                     subTitle: 'This app will allow the user to create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!)',
                     imgSrc: burgpic,
                     link: 'https://burger-sql.herokuapp.com/',
+                    github: "https://github.com/lakis006/burger",
                     selected: false
 
                 },
@@ -40,6 +42,7 @@ class  Carousel extends React.Component {
                     subTitle: 'The PWA App that Allows updated withdrawals/depositsThe Fitness Tracker enables the user to create and add workouts to a database and track these workouts in a dashboard.',
                     imgSrc: fitness,
                     link: 'https://fitness-mongo.herokuapp.com/',
+                    github: "https://github.com/lakis006/fitness-tracker",
                     selected: false
 
                 },
@@ -52,6 +55,7 @@ class  Carousel extends React.Component {
                     subTitle: 'Anyone can use this application to inspire and instruct any user on how to make a variety of dishes and drinks at home.',
                     imgSrc: qEats,
                     link: 'https://jonafi.github.io/quarantine-eats/index.html',
+                    github: "https://github.com/jonafi/quarantine-eats",
                     selected: false
 
                 },
@@ -60,6 +64,7 @@ class  Carousel extends React.Component {
                     title: 'Note Taker',
                     subTitle: 'This application enables the user to write, save, and delete notes. It will use an express backend as well as saves and retrieves note data from a JSON file. This was accomplished by using methods such as GET, POST, and DELETE.',
                     link: 'https://note-taker-lakis006.herokuapp.com/',
+                    github: "https://github.com/lakis006/note-taker",
                     imgSrc: noteTaker,
                     selected: false
 
@@ -70,6 +75,7 @@ class  Carousel extends React.Component {
                     subTitle: 'This project will include building a weather dashboard using the OpenWeather API as per users spefications. The app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.',
                     imgSrc: weather,
                     link: 'https://lakis006.github.io/weather-dashboard/',
+                    github: "https://github.com/lakis006/weather-dashboard",
                     selected: false
 
                 }
